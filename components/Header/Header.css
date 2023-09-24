@@ -1,0 +1,59 @@
+#showroom-layout #top-navbar {
+    background-color: white !important;
+    border: 1px solid #EDF1F4;
+    z-index: 1054 !important;
+}
+
+#showroom-layout .mantis-menu {
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+#main-nav-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 100%;
+    background-color: rgb(58, 111, 190);
+    padding: 0.8rem 1.2rem;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+#main-nav-dropdown::before {
+    display: none;
+}
+
+#main-nav-dropdown::after {
+    display: none;
+}
+
+.nav-link {
+    background-color: #fff;
+    border: none;
+}
+
+
+@media (max-width: 991px) {
+    .nav-link-icon {
+        display: block;
+    }
+
+    .nav-link-text {
+        display: none;
+    }
+}
+  
+@media (min-width: 992px) {
+    .nav-link-icon {
+      display: none;
+    }
+  
+    .nav-link-text {
+      display: block;
+    }
+}
+
+.shopify-buy__layout-vertical.shopify-buy__product {
+    display: none;
+}
